@@ -66,8 +66,9 @@ void delLastPenumpang(ListPenumpang &L, adrPenumpang &p);
 void delAfterPenumpang(ListPenumpang &L, adrPenumpang &p, prec);
 address findLoket(ListLoket L, infotypeLoket);
 address findPenumpang(ListPenumpang L, infotypePenumpang);
-void printInfo(List L);
+void printInfoLoket(List L);
 void printInfoPenumpang(ListPenumpang L);
+
 
 
 #endif // LOKET_H_INCLUDED
